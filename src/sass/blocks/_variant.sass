@@ -1,0 +1,50 @@
+.variant
+    position: relative
+    z-index: 1
+    padding: 50px 0 139px 49px
+    max-height: 700px
+    // background: url('../img/var_img_1.jpg') left no-repeat, url('../img/var_img_2.jpg') right no-repeat
+    background-image: url('../img/var_img_1.jpg'), url('../img/var_img_2.jpg')
+    background-position: left, right
+    background-repeat: no-repeat
+    background-size: 50% 
+    &__wrapper
+        display: flex
+        justify-content: space-between
+.variant-item
+    &__descr
+        // position: relative
+        // margin-top: 20px
+        margin-right: 40px
+    &__descr-right
+        margin-left: 74px
+    &__subtitle
+        font-size: 30px
+        font-weight: 900
+        text-align: right
+        color: #ffffff
+        margin-top: 60px
+    &__subtitle-right
+            text-align: left
+    &__text
+        font-size: 18px
+        font-weight: 300
+        text-align: right
+        color: #ffffff
+        margin-top: 20px
+    &__text-right
+            text-align: left
+    &__rect
+        position: absolute
+        z-index: -1
+        width: 120px
+        height: 120px
+        opacity: 0.3
+        margin: -105px 0 0 402px
+        background-color: #00c2f0
+    &__rect-right
+        // position: absolute
+        // z-index: -1
+        margin: -105px -4px 0px -27px
+
+        
